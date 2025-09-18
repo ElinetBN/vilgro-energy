@@ -102,7 +102,7 @@ export function Navigation() {
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 transition-colors"
                           onClick={() => setIsTeamDropdownOpen(true)}
                         >
-                          Operational Team
+                          Management Team
                         </Link>
                         <Link
                           href="/team/board-members"
@@ -207,7 +207,7 @@ export function Navigation() {
                           className="block py-1.5 text-base font-medium hover:text-primary"
                           onClick={() => setIsOpen(true)}
                         >
-                          Operational Team
+                         Management Team
                         </Link>
                         <Link
                           href="/team/board-members"
@@ -251,4 +251,5 @@ export function Navigation() {
       </div>
     </header>
   )
+
 }
